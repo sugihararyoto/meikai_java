@@ -15,14 +15,8 @@ public class ensyu1_2 {
 	 * 作成日：2023.04.05
 	 */
 	public static void main(String[] args) {
-		//画面に杉と出力するためのコード
-		System.out.println("杉");
-		//画面に原と出力するためのコード
-		System.out.println("原");
-		//画面に綾と出力するためのコード
-		System.out.println("綾");
-		//画面に斗と出力するためのコード
-		System.out.println("斗");
+		//画面に1文字ずつ杉原綾斗と出力するためのコード
+		System.out.println("杉\n原\n綾\n斗");
 	}
 
 }
