@@ -18,11 +18,11 @@ public class ensyu2_3 {
 	 */
 	public static void main(String[] args) {
 		//キーボードからの読み込みを行う
-		Scanner stdInput = new Scanner(System.in);
+		Scanner stdIn = new Scanner(System.in);
 		//画面に整数値：と表示する
 		System.out.print("整数値：");
 		//変数inputNumberにキーボードから入力した値を代入する
-		int inputNumber = stdInput.nextInt();
+		int inputNumber = stdIn.nextInt();
 		//画面に[変数inputNumberに代入した数値]と[と入力しましたね]と表示する
 		System.out.println(inputNumber + "と入力しましたね。");
 	}
