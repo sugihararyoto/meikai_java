@@ -17,7 +17,7 @@ public class ensyu1_3 {
 	 */
 	public static void main(String[] args) {
 		//画面に姓と名の間を1行あけて1文字ずつ杉原綾斗と出力するためのコード
-				System.out.println("杉\n原\n\n綾\n斗");
+		System.out.println("杉\n原\n\n綾\n斗");
 	}
 
 }
