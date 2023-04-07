@@ -21,22 +21,22 @@ public class ensyu3_4 {
 		Scanner standardInput = new Scanner(System.in);
 		//画面に1つ目の値：と表示する
 		System.out.print("1つ目の値：");
-		//変数inputNumberFirstにキーボードから入力した値を代入する
-		double inputNumberFirst = standardInput.nextDouble();
+		//変数inputFirstNumberにキーボードから入力した値を代入する
+		double inputFirstNumber = standardInput.nextDouble();
 		//画面に2つ目の値：と表示する
 		System.out.print("2つ目の値：");
 		//変数inputNumberSecondにキーボードから入力した値を代入する
-		double inputNumberSecond = standardInput.nextDouble();
+		double inputSecondNumber = standardInput.nextDouble();
 		
-		//変数inputNumberSecondがinputNumberSecondより大きいときに実行する
-		if (inputNumberFirst > inputNumberSecond)
+		//変数inputFirstNumberがinputSecondNumberより大きい場合
+		if (inputFirstNumber > inputSecondNumber)
 			//画面に1つ目の値のほうが大きいです。と表示する
 			System.out.println("1つ目の値のほうが大きいです。");
-		//変数inputNumberSecondがinputNumberSecondより小さいときに実行する
-		else if (inputNumberFirst < inputNumberSecond)
+		//変数inputFirstNumberがinputSecondNumberより小さい場合
+		else if (inputFirstNumber < inputSecondNumber)
 			//画面に2つ目の値のほうが大きいです。と表示する
 			System.out.println("2つ目の値のほうが大きいです。");
-		//変数inputNumberSecondがinputNumberSecondより大きくも小さくもないときに実行する
+		//変数inputFirstNumberとinputSecondNumberが同じ場合
 		else
 			//画面に1つ目の値と2つ目の値は同じです。と表示する
 			System.out.println("1つ目の値と2つ目の値は同じです。");
