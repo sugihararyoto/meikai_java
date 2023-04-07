@@ -1,6 +1,6 @@
 //パッケージ名の宣言
 package ensyu2_9;
-//乱数を生成する決まり文句をクラスの前に設置する
+//importする
 import java.util.Random;
 /*
  * クラス名:ensyu2_9
@@ -18,14 +18,14 @@ public class ensyu2_9 {
 	 * 作成日：2023.04.06
 	 */
 	public static void main(String[] args) {
-		//乱数を生成する決まり文句を設置する
-		Random rand = new Random();
+		//乱数を生成する準備
+		Random randomNumber = new Random();
 		//変数firstNumberを生成し、0.0以上1.0未満の実数値をランダムで代入する
-		double firstNumber =rand.nextDouble();
+		double firstNumber =randomNumber.nextDouble();
 		//変数secondNumberを生成し、0.0以上10.0未満の実数値をランダムで代入する
-		double secondNumber =rand.nextDouble(10);
+		double secondNumber =randomNumber.nextDouble(10);
 		//変数thirdNumberを生成し、0.0以上2.0未満の実数値をランダムで代入する
-		double thirdNumber =rand.nextDouble(2);
+		double thirdNumber =randomNumber.nextDouble(2);
 		//画面に0.0以上1.0未満の実数値を表示する
 		System.out.println("0.0以上1.0未満の実数値：" + firstNumber);
 		//画面に0.0以上10.0未満の実数値を表示する
