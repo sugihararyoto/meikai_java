@@ -1,7 +1,9 @@
 //パッケージ名の宣言
 package ensyu3_5;
+
 //importする
 import java.util.Scanner;
+
 /*
  * クラス名:ensyu3_5
  * 概要  :演習3-5クラス
@@ -35,7 +37,7 @@ public class ensyu3_5 {
 			else
 				//画面にその値は5で割り切れません。と表示する
 				System.out.println("その値は5で割り切れません。");
-		//変数inputNumberに正でない値が入力された場合
+		//変数inputNumberが0より大きくない場合
 		else
 			//画面に正でない値が入力されました。と表示する
 			System.out.println("正でない値が入力されました。");
