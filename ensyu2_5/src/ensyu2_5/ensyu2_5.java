@@ -1,6 +1,6 @@
 //パッケージ名の宣言
 package ensyu2_5;
-//キーボードからの入力を行う決まり文句をクラスの前に設置する
+//importする
 import java.util.Scanner;
 /*
  * クラス名:ensyu2_5
@@ -18,15 +18,15 @@ public class ensyu2_5 {
 	 */
 	public static void main(String[] args) {
 		//キーボードからの読み込みを行う
-		Scanner stdIn = new Scanner(System.in);
-		//画面に1つ目の値：と表示する
+		Scanner standardInput = new Scanner(System.in);
+		//画面に1つ目の値の入力を促す
 		System.out.print("1つ目の値：");
 		//変数inputNumberFirstにキーボードから入力した値（小数部を含む）を代入する
-		double inputNumberFirst = stdIn.nextDouble();
-		//画面に2つ目の値：と表示する
+		double inputNumberFirst = standardInput.nextDouble();
+		//画面に2つ目の値の入力を促す
 		System.out.print("2つ目の値：");
 		//変数inputNumberSecondにキーボードから入力した値（小数部を含む）を代入する
-		double inputNumberSecond = stdIn.nextDouble();
+		double inputNumberSecond = standardInput.nextDouble();
 		//画面に入力した2つの値の合計を表示する
 		System.out.println("合計は" + (inputNumberFirst + inputNumberSecond) + "です。");
 		//画面に入力した2つの値の平均を表示する
