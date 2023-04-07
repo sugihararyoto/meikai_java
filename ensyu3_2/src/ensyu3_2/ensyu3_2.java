@@ -24,18 +24,16 @@ public class ensyu3_2 {
 		//画面に整数Aの入力を促す
 		System.out.print("整数A：");
 		//変数inputNumberFirstにキーボードから入力した値を代入する
-		int inputNumberFirst = standardInput.nextInt();
+		int inputFirstNumber = standardInput.nextInt();
 		//画面に整数Bの入力を促す
 		System.out.print("整数B：");
 		//変数inputNumberSecondにキーボードから入力した値を代入する
-		int inputNumberSecond = standardInput.nextInt();
-		/*inputNumberFirstをinputNumberSecondで割った余りが0
-		 * つまり、BがAの約数である場合に実行する
-		 */
-		if (inputNumberFirst % inputNumberSecond == 0)
+		int inputSecondNumber = standardInput.nextInt();
+		//BがAの約数である場合
+		if (inputFirstNumber % inputSecondNumber == 0)
 			//画面にBはAの約数です。と表示する
 			System.out.println("BはAの約数です。");
-		//(inputNumberFirst % inputNumberSecond == 0)に当てはまらない場合に実行する
+		//BがAの約数でない場合
 		else
 			//画面にBはAの約数ではありません。と表示する
 			System.out.println("BはAの約数ではありません。");
