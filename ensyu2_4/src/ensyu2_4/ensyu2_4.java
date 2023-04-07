@@ -1,6 +1,6 @@
 //パッケージ名の宣言
 package ensyu2_4;
-//キーボードからの入力を行う決まり文句をクラスの前に設置する
+//importする
 import java.util.Scanner;
 /*
  * クラス名:ensyu2_4
@@ -18,11 +18,11 @@ public class ensyu2_4 {
 	 */
 	public static void main(String[] args) {
 		//キーボードからの読み込みを行う
-		Scanner stdIn = new Scanner(System.in);
-		//画面に整数値：と表示する
+		Scanner standardInput = new Scanner(System.in);
+		//整数値の入力を促す
 		System.out.print("整数値：");
 		//変数inputNumberにキーボードから入力した値を代入する
-		int inputNumber = stdIn.nextInt();
+		int inputNumber = standardInput.nextInt();
 		//画面に変数inputNumberに代入した数値から10を加えた数を表示する
 		System.out.println("10を加えた値は" + (inputNumber + 10) + "です。");
 		//画面に変数inputNumberに代入した数値から10を減じた数を表示する
