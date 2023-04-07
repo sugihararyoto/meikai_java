@@ -1,6 +1,6 @@
 //パッケージ名の宣言
 package ensyu2_7;
-//乱数を生成する決まり文句をクラスの前に設置する
+//importする
 import java.util.Random;
 /*
  * クラス名:ensyu2_7
@@ -18,14 +18,14 @@ public class ensyu2_7 {
 	 * 作成日：2023.04.06
 	 */
 	public static void main(String[] args) {
-		//乱数を生成する
-		Random rand = new Random();
-		//変数firstNumberを生成し、0~9までの値をランダムで代入する
-		int firstNumber =rand.nextInt(9);
-		//変数secondNumberを生成し、0~9までの値をランダムで代入する
-		int secondNumber =rand.nextInt(9);
+		//乱数を生成する準備
+		Random randomNumber = new Random();
+		//変数firstNumberを生成し、0~8までの値をランダムで代入する
+		int firstNumber =randomNumber.nextInt(9);
+		//変数secondNumberを生成し、0~8までの値をランダムで代入する
+		int secondNumber =randomNumber.nextInt(9);
 		//変数thirdNumberを生成し、0~89までの値をランダムで代入する
-		int thirdNumber =rand.nextInt(90);
+		int thirdNumber =randomNumber.nextInt(90);
 		//画面に1桁の正の整数値を表示する
 		System.out.println("1桁の正の整数値：" + (firstNumber + 1));
 		//画面に1桁の負の整数値を表示する
