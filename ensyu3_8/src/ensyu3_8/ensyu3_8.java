@@ -24,19 +24,19 @@ public class ensyu3_8 {
 		System.out.print("点数：");
 		//変数inputScoreにキーボードから入力した値を代入する
 		int inputScore = standardInput.nextInt();
-		//入力した値が0~59の場合に実行する
+		//入力した値が0~59の場合
 		if (inputScore >= 0 && inputScore <= 59)
 			//画面に判定：不可と表示する
 			System.out.println("判定：不可");
-		//入力した値が60~69の場合に実行する
+		//入力した値が60~69の場合
 		else if (inputScore >= 60 && inputScore <=69)
 			//画面に判定：可と表示する
 			System.out.println("判定：可");
-		//入力した値が70~79の場合に実行する
+		//入力した値が70~79の場合
 		else if (inputScore >= 70 && inputScore <=79)
 			//画面に判定：良と表示する
 			System.out.println("判定：良");
-		//美優力した値が80~100の場合に実行する
+		//入力した値が80~100の場合
 		else if (inputScore >= 80 && inputScore <=100)
 			//画面に判定：優と表示する
 			System.out.println("判定：優");
