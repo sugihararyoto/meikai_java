@@ -1,6 +1,6 @@
 //パッケージ名の宣言
 package ensyu2_10;
-//キーボードからの入力を行う決まり文句をクラスの前に設置する
+//importする
 import java.util.Scanner;
 /*
  * クラス名:ensyu2_10
@@ -18,15 +18,15 @@ public class ensyu2_10 {
 	 */
 	public static void main(String[] args) {
 		//キーボードからの読み込みを行う
-		Scanner stdIn = new Scanner(System.in);
-		//画面に姓：と表示する
+		Scanner standardInput = new Scanner(System.in);
+		//画面に姓の入力を促す
 		System.out.print("姓：");
 		//変数lastNameにキーボードから読み込んだ文字列を代入する
-		String lastName = stdIn.next();
-		//画面に名：と表示する
+		String lastName = standardInput.next();
+		//画面に名の入力を促す
 		System.out.print("名：");
 		//変数firstNameにキーボードから読み込んだ文字列を代入する
-		String firstName = stdIn.next();
+		String firstName = standardInput.next();
 		//画面に姓と名を表示し、挨拶文も表示する
 		System.out.println("こんにちは" + lastName + firstName + "さん。");
 	}
