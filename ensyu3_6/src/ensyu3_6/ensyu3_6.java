@@ -35,7 +35,7 @@ public class ensyu3_6 {
 			else
 				//画面にその値は10の倍数ではありません。と表示する
 				System.out.println("その値は10の倍数ではありません。");
-		//変数inputNumberに正でない値が入力された場合
+		//変数inputNumberに0より大きくない値が入力された場合
 		else
 			//画面に正でない値が入力されました。と表示する
 			System.out.println("正でない値が入力されました。");
