@@ -26,22 +26,22 @@ public class ensyu3_7 {
 		System.out.print("整数値：");
 		//変数inputNumberにキーボードから入力した値を代入する
 		int inputNumber = standardInput.nextInt();
-		//変数inputNumberが0より大きい時に実行する
+		//変数inputNumberが0より大きい場合
 		if (inputNumber > 0)
-			//変数inputNumberが3で割り切れるときに実行する
+			//変数inputNumberが3で割り切れる場合
 			if (inputNumber % 3 == 0)
 				//画面にその値は3で割り切れます。と表示する
 				System.out.println("その値は3で割り切れます。");
-			//変数inputNumberを3で割ると余りが1になるときに実行する
+			//変数inputNumberを3で割ると余りが1になる場合
 			else if (inputNumber % 3 == 1)
 				//画面にその値を3で割った余りは1です。と表示する
 				System.out.println("その値を3で割った余りは1です。");
-			//変数inputNumberを3で割ると余りが0にも1にならないときに実行する
+			//変数inputNumberを3で割ると余りが2になる場合
 			else
 				//画面にその値を3で割った余りは2です。と表示する
 				System.out.println("その値を3で割った余りは2です。");
 		
-		//(inputNumber > 0)に当てはまらない場合に実行する
+		//変数inputNumberに正でない値が入力された場合
 		else
 			//画面に正でない値が入力されました。と表示する
 			System.out.println("正でない値が入力されました。");
