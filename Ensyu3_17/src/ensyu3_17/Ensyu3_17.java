@@ -24,9 +24,9 @@ public class Ensyu3_17 {
 		int handNumber = randomNumber.nextInt(3);
 		//変数handNumberの値から3つのパターンに分岐させる
 		switch (handNumber) {
-		case 0: System.out.println("グー"); break; //画面にグーと表示する
-		case 1: System.out.println("チョキ"); break; //画面にチョキと表示する
-		case 2: System.out.println("パー"); break; //画面にパーと表示する
+		case 0: System.out.println("グー"); break; //画面にグーと表示して途切れる
+		case 1: System.out.println("チョキ"); break; //画面にチョキと表示して途切れる
+		case 2: System.out.println("パー"); break; //画面にパーと表示して途切れる
 		}
 	}
 
