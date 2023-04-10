@@ -40,8 +40,8 @@ public class ensyu3_7 {
 			else
 				//画面にその値を3で割った余りは2です。と表示する
 				System.out.println("その値を3で割った余りは2です。");
-		
-		//変数inputNumberに正でない値が入力された場合
+
+		//変数inputNumberに0より大きくない値が入力された場合
 		else
 			//画面に正でない値が入力されました。と表示する
 			System.out.println("正でない値が入力されました。");
