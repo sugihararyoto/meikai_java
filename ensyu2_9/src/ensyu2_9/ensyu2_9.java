@@ -24,14 +24,14 @@ public class ensyu2_9 {
 		double firstNumber =randomNumber.nextDouble();
 		//変数secondNumberを生成し、0.0以上10.0未満の実数値をランダムで代入する
 		double secondNumber =randomNumber.nextDouble(10);
-		//変数thirdNumberを生成し、0.0以上2.0未満の実数値をランダムで代入する
-		double thirdNumber =randomNumber.nextDouble(2);
+		//変数thirdNumberを生成し、-1.0以上1.0未満の実数値をランダムで代入する
+		double thirdNumber =randomNumber.nextDouble(2) - 1;
 		//画面に0.0以上1.0未満の実数値を表示する
 		System.out.println("0.0以上1.0未満の実数値：" + firstNumber);
 		//画面に0.0以上10.0未満の実数値を表示する
 		System.out.println("0.0以上10.0未満の実数値：" + secondNumber);
 		//画面に-1.0以上1.0未満の実数値を表示する
-		System.out.println("-1.0以上1.0未満の実数値：" + (thirdNumber - 1));
+		System.out.println("-1.0以上1.0未満の実数値：" + thirdNumber);
 	}
 
 }
