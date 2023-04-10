@@ -22,16 +22,16 @@ public class ensyu3_9 {
 		//画面に整数Aの入力を促す
 		System.out.print("整数A：");
 		//変数firstNumberにキーボードから入力した値を代入する
-		int firstNumber = standardInput.nextInt();
+		double firstNumber = standardInput.nextDouble();
 		//画面に整数Bの入力を促す
 		System.out.print("整数B：");
 		//変数secondNumberにキーボードから入力した値を代入する
-		int secondNumber = standardInput.nextInt();
+		double secondNumber = standardInput.nextDouble();
 		/* 大きい数字を表す変数largeNumberを生成し
 		 * 変数firstNumber > 変数secondNumberならば変数firstNumberの値を代入
 		 * そうでないならば、変数secondNumberの値を代入する
 		 */
-		int largeNumber = firstNumber > secondNumber ? firstNumber : secondNumber;
+		double largeNumber = firstNumber > secondNumber ? firstNumber : secondNumber;
 		//画面に大きい方の値を表示する
 		System.out.println("大きい方の値は" + largeNumber + "です。");
 		
