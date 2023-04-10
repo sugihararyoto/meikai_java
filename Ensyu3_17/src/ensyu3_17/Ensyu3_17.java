@@ -10,7 +10,8 @@ import java.util.Random;
  */
 public class Ensyu3_17 {
 	/* 関数名：main
-	 * 概要：
+	 * 概要：0,1,2のいずれかの値の乱数を生成し、0であればグーを、
+	 * 1であればチョキを、2であればパーを表示する
 	 * 引数：なし
 	 * 戻り値：なし
 	 * 作成者：R.Sugihara
