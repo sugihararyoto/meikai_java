@@ -19,12 +19,12 @@ public class ensyu3_9 {
 	public static void main(String[] args) {
 		//キーボードからの入力を読み込む
 		Scanner standardInput = new Scanner(System.in);
-		//画面に整数Aの入力を促す
-		System.out.print("整数A：");
+		//画面に実数Aの入力を促す
+		System.out.print("実数A：");
 		//変数firstNumberにキーボードから入力した値を代入する
 		double firstNumber = standardInput.nextDouble();
-		//画面に整数Bの入力を促す
-		System.out.print("整数B：");
+		//画面に実数Bの入力を促す
+		System.out.print("実数B：");
 		//変数secondNumberにキーボードから入力した値を代入する
 		double secondNumber = standardInput.nextDouble();
 		/* 大きい数字を表す変数largeNumberを生成し
