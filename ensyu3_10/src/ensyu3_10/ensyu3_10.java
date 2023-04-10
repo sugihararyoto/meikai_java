@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class ensyu3_10 {
 	/* 関数名：main
-	 * 概要：2つの実数値を読み込んで、それらの差を表示する
+	 * 概要：2つの整数値を読み込んで、それらの差を表示する
 	 * 引数：なし
 	 * 戻り値：なし
 	 * 作成者：R.Sugihara
@@ -27,7 +27,7 @@ public class ensyu3_10 {
 		System.out.print("整数B：");
 		//変数secondNumberにキーボードから入力した値を代入する
 		int secondNumber = standardInput.nextInt();
-		/* 差を表す変数differenceNumberを生成し
+		/* 差を表す変数differenceNumberを生成し、差を代入するために、
 		 * 変数firstNumber > 変数secondNumberならば
 		 * 変数firstNumber - 変数secondNumberの値を代入
 		 * そうでないならば、変数secondNumber - 変数firstNumberの値を代入する
