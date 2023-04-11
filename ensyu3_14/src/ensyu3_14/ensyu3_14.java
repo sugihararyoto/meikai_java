@@ -33,13 +33,16 @@ public class ensyu3_14 {
 			//画面に二つの値は同じです。と表示する
 			System.out.println("二つの値は同じです。");
 		//同じ値ではない場合
-		} else  {
-			/* 大きい数字を表す変数maximumNumberと小さい数字を表す
-			 * 変数minimumNumberを生成し、変数firstNumberと変数secondNumberのうち
-			 * 変数maximumNumberに大きいほうの値を
-			 * 変数minimumNumberに小さいほうの値を代入する。
+		} else {
+			/* 小さい数字を表す変数minimumNumberを生成し
+			 * 変数firstNumberと変数secondNumberのうち
+			 * 小さいほうの値を変数minimumNumberに代入する
 			 */
 			int minimumNumber = (firstNumber < secondNumber ? firstNumber : secondNumber);
+			/* 大きい数字を表す変数maximumNumberを生成し
+			 * 変数firstNumberと変数secondNumberのうち
+			 * 大きいほうの値を変数minimumNumberに代入するS
+			 */
 			int maximumNumber = (firstNumber > secondNumber ? firstNumber : secondNumber);
 			//画面に小さいほうの値を表示する
 			System.out.println("小さいほうの値は" + minimumNumber + "です。");
