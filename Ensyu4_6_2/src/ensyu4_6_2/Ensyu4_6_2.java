@@ -26,6 +26,12 @@ public class Ensyu4_6_2 {
 		//変数inputNumberを生成し、キーボードから入力した値を代入する
 		int inputNumber = standardInput.nextInt();
 		
+		//表示できない値が入力された場合
+		if (inputNumber <= 0) {
+			//画面にその値では表示できません。と表示する
+			System.out.println("その値では表示できません。");
+		}
+		
 		//変数incrementNumberを生成し、1を代入する
 		int incrementNumber = 1;
 		
