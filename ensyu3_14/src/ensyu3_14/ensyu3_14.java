@@ -41,7 +41,7 @@ public class ensyu3_14 {
 			int minimumNumber = (firstNumber < secondNumber ? firstNumber : secondNumber);
 			/* 大きい数字を表す変数maximumNumberを生成し
 			 * 変数firstNumberと変数secondNumberのうち
-			 * 大きいほうの値を変数minimumNumberに代入するS
+			 * 大きいほうの値を変数maximumNumberに代入する
 			 */
 			int maximumNumber = (firstNumber > secondNumber ? firstNumber : secondNumber);
 			//画面に小さいほうの値を表示する
