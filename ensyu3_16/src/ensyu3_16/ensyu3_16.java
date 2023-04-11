@@ -37,15 +37,20 @@ public class ensyu3_16 {
 			if (thirdNumber > secondNumber) {
 				//変数fourthNumberを生成して変数firstNumberの値を代入する
 				int fourthNumber = firstNumber;
-				firstNumber = secondNumber; //昇順にするために代入する
-				secondNumber = thirdNumber; //昇順にするために代入する
-				thirdNumber = fourthNumber; //昇順にするために代入する
-			//変数thirdNumberの値が変数secondNumberの値より小さい場合
+				//変数firstNumberに変数secondNumberの値を代入する
+				firstNumber = secondNumber;
+				//変数secondNumberに変数thirdNumberの値を代入する
+				secondNumber = thirdNumber;
+				//変数thirdNumberに変数fourthNumberの値を代入する
+				thirdNumber = fourthNumber;
+			//変数thirdNumberの値が変数secondNumberの値以下の場合
 			} else {
 				//変数fourthNumberを生成して変数firstNumberの値を代入する
 				int fourthNumber = firstNumber;
-				firstNumber = thirdNumber; //昇順にするために代入する
-				thirdNumber = fourthNumber; //昇順にするために代入する
+				//変数firstNumberに変数thirdNumberの値を代入する
+				firstNumber = thirdNumber;
+				//変数thirdNumberに変数fourthNumberの値を代入する
+				thirdNumber = fourthNumber;
 			}
 		//変数firstNumberが一番小さい値になる場合
 		} else if (firstNumber < secondNumber && firstNumber < thirdNumber) {
@@ -53,8 +58,10 @@ public class ensyu3_16 {
 			if (secondNumber > thirdNumber) {
 				//変数fourthNumberを生成して変数secondNumberの値を代入する
 				int fourthNumber = secondNumber;
-				secondNumber = thirdNumber; //昇順にするために代入する
-				thirdNumber = fourthNumber; //昇順にするために代入する
+				//変数secondNumberに変数thirdNumberの値を代入する
+				secondNumber = thirdNumber;
+				//変数thirdNumberに変数fourthNumberの値を代入する
+				thirdNumber = fourthNumber;
 			}
 		//変数firstNumberが中央値になる場合
 		} else {
@@ -62,15 +69,20 @@ public class ensyu3_16 {
 			if (firstNumber > secondNumber) {
 				//変数fourthNumberを生成して変数firstNumberの値を代入する
 				int fourthNumber = firstNumber;
-				firstNumber = secondNumber; //昇順にするために代入する
-				secondNumber = fourthNumber; //昇順にするために代入する
-			//変数firstNumberの値が変数secondNumberの値より小さい場合
+				//変数firstNumberに変数secondNumberの値を代入する
+				firstNumber = secondNumber;
+				//変数secondNumberに変数fourthNumberの値を代入する
+				secondNumber = fourthNumber;
+			//変数firstNumberの値が変数secondNumberの値以下の場合
 			} else {
 				//変数fourthNumberを生成して変数firstNumberの値を代入する
 				int fourthNumber = firstNumber;
-				firstNumber = thirdNumber; //昇順にするために代入する
-				thirdNumber = secondNumber; //昇順にするために代入する
-				secondNumber = fourthNumber; //昇順にするために代入する
+				//変数firstNumberに変数thirdNumberの値を代入する
+				firstNumber = thirdNumber;
+				//変数thirdNumberに変数secondNumberの値を代入する
+				thirdNumber = secondNumber;
+				//変数secondNumberに変数fourthNumberの値を代入する
+				secondNumber = fourthNumber;
 			}	
 		}
 		//画面に昇順にソートしました。と表示する
