@@ -32,6 +32,11 @@ public class Ensyu4_4 {
 			System.out.print("正の整数値：");
 			//変数にキーボードから入力した値を代入する
 			inputNumber = standardInput.nextInt();
+			//正の整数値ではない数が入力された場合
+			if(inputNumber < 1) {
+				//画面に正ではない値が入力されました。と表示する
+				System.out.println("正ではない値が入力されました。");
+			}
 		/*
 		 * 変数inputNumberの値が0以下のあいだ
 		 * doからwhileまでを繰り返す
