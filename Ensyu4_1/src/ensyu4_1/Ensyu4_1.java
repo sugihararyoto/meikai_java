@@ -22,7 +22,7 @@ public class Ensyu4_1 {
 		Scanner standardInput = new Scanner(System.in);
 		//繰り返しのための変数retryNumberを生成する
 		int retryNumber;
-		//以降の文を実行する
+		//whileまでの文を実行する
 		do {
 			//画面に整数値の入力を促す
 			System.out.print("整数値：");
@@ -45,7 +45,7 @@ public class Ensyu4_1 {
 			System.out.print("もう一度？ 1…Yes/0…No：");
 			//変数retryNumberにキーボードから入力された値を代入する
 			retryNumber = standardInput.nextInt();
-		//変数retryNumberの値が1のあいだdo以降を繰り返す
+		//変数retryNumberの値が1のあいだdoからwhileまでを繰り返す
 		} while (retryNumber == 1);
 
 	}
