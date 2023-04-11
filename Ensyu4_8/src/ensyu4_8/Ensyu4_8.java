@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Ensyu4_8 {
 	/*
 	 * 関数名：main
-	 * 概要：
+	 * 概要：正の整数値を読み込んで、その桁数を出力する
 	 * 引数：なし
 	 * 戻り値：なし
 	 * 作成者：R.Sugihara
