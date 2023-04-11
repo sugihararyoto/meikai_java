@@ -20,7 +20,7 @@ public class Ensyu4_2 {
 	 */
 	public static void main(String[] args) {
 		//乱数を生成する準備
-		Random randomNumber =new Random();
+		Random randomNumber = new Random();
 		//キーボードからの入力を読み込む
 		Scanner standardInput = new Scanner(System.in);
 		
