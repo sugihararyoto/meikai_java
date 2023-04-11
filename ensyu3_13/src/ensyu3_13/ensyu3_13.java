@@ -42,7 +42,7 @@ public class ensyu3_13 {
 				if (thirdNumber > secondNumber)
 					//変数medianNumberに変数thirdNumberの値を代入する
 					medianNumber = thirdNumber;
-				//変数thirdNumberの値が変数secondNumberの値より小さい場合
+				//変数thirdNumberの値が変数secondNumberの値以下の場合
 				else
 					//変数medianNumberに変数secondNumberの値を代入する
 					medianNumber = secondNumber;
@@ -54,7 +54,7 @@ public class ensyu3_13 {
 				if (thirdNumber < secondNumber)
 					//変数medianNumberに変数thirdNumberの値を代入する
 					medianNumber = thirdNumber;
-				//変数thirdNumberの値が変数secondNumberの値より大きい場合
+				//変数thirdNumberの値が変数secondNumberの値以上の場合
 				else
 					//変数medianNumberに変数secondNumberの値を代入する
 					medianNumber = secondNumber;
