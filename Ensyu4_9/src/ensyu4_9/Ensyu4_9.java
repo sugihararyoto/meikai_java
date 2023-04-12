@@ -21,8 +21,8 @@ public class Ensyu4_9 {
 		//キーボードからの入力を読み込む
 		Scanner standardInput = new Scanner(System.in);
 		
-		//変数inputNumberを生成する
-		int inputNumber;
+		//変数inputNumberを生成し、0で初期化する
+		int inputNumber = 0;
 		
 		//whileまでの文を実行する
 		do {
@@ -45,9 +45,9 @@ public class Ensyu4_9 {
 		//変数inputNumberの値が0以下のあいだdoからwhileまでを繰り返す
 		} while (inputNumber <= 0);
 		
-		//変数sumNumberを生成し、1を代入する
+		//変数sumNumberを生成し、1で初期化する
 		int sumNumber = 1;
-		//変数incrementNumberを生成し、1を代入する
+		//変数incrementNumberを生成し、1で初期化する
 		int incrementNumber = 1;
 		
 		//変数incrementNumberの値が変数inputNumberの値以下のあいだ繰り返す
