@@ -32,7 +32,7 @@ public class Ensyu4_10 {
 			System.out.println("その値では表示できません。");
 		}
 		/*
-		 * 変数incrementNumberを生成し、0から始めて1つずつ増やしながら
+		 * 変数incrementNumberを生成し、0で初期化した後に1つずつ値を増やしながら
 		 * 変数inputNumberの値まで繰り返す
 		 */
 		for (int incrementNumber = 0; incrementNumber < inputNumber; incrementNumber++) {
