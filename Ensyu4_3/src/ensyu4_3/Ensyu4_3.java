@@ -42,7 +42,7 @@ public class Ensyu4_3 {
 		 */
 		int maximumNumber = (firstNumber > secondNumber ? firstNumber : secondNumber);
 		
-		//whileまでの文を実行する
+		//while (minimumNumber <= maximumNumber)までの文を実行する
 		do {
 			//画面に小さい方の数を表示する
 			System.out.print(minimumNumber);
