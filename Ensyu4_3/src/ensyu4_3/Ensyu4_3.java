@@ -16,7 +16,7 @@ public class Ensyu4_3 {
 	 * 引数：なし
 	 * 戻り値：なし
 	 * 作成者：R.Sugihara
-	 * 作成日：2023.04.10
+	 * 作成日：2023.04.11
 	 */
 	public static void main(String[] args) {
 		//キーボードからの入力を読み込む
@@ -24,21 +24,21 @@ public class Ensyu4_3 {
 		
 		//画面に整数値の入力を促す
 		System.out.print("整数A：");
-		//変数firstNumberを生成し、キーボードから入力された値を代入する
+		//変数firstNumberを生成し、キーボードから入力された値で初期化する
 		int firstNumber = standardInput.nextInt();
 		//画面に整数値の入力を促す
 		System.out.print("整数B：");
-		//変数secondNumberを生成し、キーボードから入力された値を代入する
+		//変数secondNumberを生成し、キーボードから入力された値で初期化する
 		int secondNumber = standardInput.nextInt();
 		
 		/*
 		 * 変数minimumNumberを生成し、変数firstNumberと変数secondNumberのうち
-		 * 小さいほうの値を代入する
+		 * 小さいほうの値で初期化する
 		 */
 		int minimumNumber = (firstNumber < secondNumber ? firstNumber : secondNumber);
 		/*
 		 * 変数maximumNumberを生成し、変数firstNumberと変数secondNumberのうち
-		 * 大きいほうの値を代入する
+		 * 大きいほうの値で初期化する
 		 */
 		int maximumNumber = (firstNumber > secondNumber ? firstNumber : secondNumber);
 		
