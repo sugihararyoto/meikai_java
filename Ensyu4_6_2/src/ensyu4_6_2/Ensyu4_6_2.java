@@ -23,7 +23,7 @@ public class Ensyu4_6_2 {
 		Scanner standardInput = new Scanner(System.in);
 		//画面に入力を促す
 		System.out.print("何個*を表示しますか：");
-		//変数inputNumberを生成し、キーボードから入力した値を代入する
+		//変数inputNumberを生成し、キーボードから入力した値で初期化する
 		int inputNumber = standardInput.nextInt();
 		
 		//表示できない値が入力された場合
@@ -32,7 +32,7 @@ public class Ensyu4_6_2 {
 			System.out.println("その値では表示できません。");
 		}
 		
-		//変数incrementNumberを生成し、1を代入する
+		//変数incrementNumberを生成し、1で初期化する
 		int incrementNumber = 1;
 		
 		//変数incrementNumberが変数inputNumberの値以下のあいだ繰り返す
