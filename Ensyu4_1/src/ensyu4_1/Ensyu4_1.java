@@ -20,13 +20,13 @@ public class Ensyu4_1 {
 	public static void main(String[] args) {
 		//キーボードからの入力を読み込む
 		Scanner standardInput = new Scanner(System.in);
-		//繰り返しのための変数retryNumberを生成する
-		int retryNumber;
+		//繰り返しのための変数retryNumberを生成し、0で初期化する。
+		int retryNumber = 0;
 		//whileまでの文を実行する
 		do {
 			//画面に整数値の入力を促す
 			System.out.print("整数値：");
-			//変数inputNumberを生成し、キーボードから入力した値を代入する
+			//変数inputNumberを生成し、キーボードから入力した値で初期化する
 			int inputNumber = standardInput.nextInt();
 			//変数inputNumberの値が0より大きい場合
 			if (inputNumber > 0) {
@@ -41,10 +41,18 @@ public class Ensyu4_1 {
 				//画面にその値は0です。と表示する
 				System.out.println("その値は0です。");
 			}
-			//画面でもう一回操作を繰り返すかどうかを確認する
-			System.out.print("もう一度？ 1…Yes/0…No：");
-			//変数retryNumberにキーボードから入力された値を代入する
-			retryNumber = standardInput.nextInt();
+			
+			//whileまでの文を実行する
+			do {
+				//画面でもう一回操作を繰り返すかどうかを確認する
+				System.out.print("もう一度？ 1…Yes/0…No：");
+				//変数retryNumberにキーボードから入力された値を代入する
+				retryNumber = standardInput.nextInt();
+			
+			//変数retryNumberの値が1でも0でもないあいだ繰り返す
+			} while (retryNumber != 1 && retryNumber != 0);
+			
+			
 		//変数retryNumberの値が1のあいだdoからwhileまでを繰り返す
 		} while (retryNumber == 1);
 
