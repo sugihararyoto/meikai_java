@@ -42,7 +42,7 @@ public class Ensyu4_1 {
 				System.out.println("その値は0です。");
 			}
 			
-			//whileまでの文を実行する
+			//while (retryNumber != 1 && retryNumber != 0)までの文を実行する
 			do {
 				//画面でもう一回操作を繰り返すかどうかを確認する
 				System.out.print("もう一度？ 1…Yes/0…No：");
