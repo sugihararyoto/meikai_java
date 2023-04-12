@@ -22,7 +22,7 @@ public class Ensyu4_7 {
 		Scanner standardInput = new Scanner(System.in);
 		//画面に入力を促す
 		System.out.print("何個表示しますか：");
-		//変数inputNumberを生成し、キーボードから入力した値を代入する
+		//変数inputNumberを生成し、キーボードから入力した値で初期化する
 		int inputNumber = standardInput.nextInt();
 		
 		//表示できない値が入力された場合
