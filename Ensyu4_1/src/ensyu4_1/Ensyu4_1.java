@@ -22,7 +22,7 @@ public class Ensyu4_1 {
 		Scanner standardInput = new Scanner(System.in);
 		//繰り返しのための変数retryNumberを生成し、0で初期化する。
 		int retryNumber = 0;
-		//whileまでの文を実行する
+		//while (retryNumber == 1)までの文を実行する
 		do {
 			//画面に整数値の入力を促す
 			System.out.print("整数値：");
