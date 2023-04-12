@@ -37,7 +37,7 @@ public class Ensyu4_2 {
 		
 		//プレイヤーが入力した数を代入するための変数inputNumberを生成し、0で初期化する
 		int inputNumber = 0;
-		//whileまでの文を実行する
+		//while (inputNumber != correctNumber)までの文を実行する
 		do {
 			//画面に入力を促す
 			System.out.print("いくつかな：");
