@@ -55,7 +55,7 @@ public class Ensyu4_4 {
 		}
 		
 		//画面に変数の値を表示し、-1になっていることを確認する。
-		System.out.println(inputNumber);
+		System.out.println("確認=" + inputNumber);
 	}
 
 }
