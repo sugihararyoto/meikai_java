@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Ensyu4_11 {
 	/*
 	 * 関数名：main
-	 * 概要：
+	 * 概要：List4-4をfor文で実現する
 	 * 引数：なし
 	 * 戻り値：なし
 	 * 作成者：R.Sugihara
