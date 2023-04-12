@@ -29,7 +29,7 @@ public class Ensyu4_4 {
 		 */
 		int inputNumber = 0;
 		
-		//whileまでの文を実行する
+		//while (inputNumber <= 0)までの文を実行する
 		do {
 			//画面に正の整数値の入力を促す
 			System.out.print("正の整数値：");
