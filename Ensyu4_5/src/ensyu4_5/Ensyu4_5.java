@@ -24,8 +24,11 @@ public class Ensyu4_5 {
 		
 		//画面にカウントダウンします。と表示する
 		System.out.println("カウントダウンします。");
-		//キーボードから入力した値を代入するための変数inputNumberを生成する
-		int inputNumber;
+		/*
+		 * キーボードから入力した値を代入するための変数inputNumberを生成し、
+		 * 0で初期化する
+		 */
+		int inputNumber = 0;
 		
 		//whileまでの文を実行する
 		do {
