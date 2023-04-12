@@ -16,7 +16,7 @@ public class Ensyu4_2 {
 	 * 引数：なし
 	 * 戻り値：なし
 	 * 作成者：R.Sugihara
-	 * 作成日：2023.04.10
+	 * 作成日：2023.04.11
 	 */
 	public static void main(String[] args) {
 		//乱数を生成する準備
@@ -24,16 +24,19 @@ public class Ensyu4_2 {
 		//キーボードからの入力を読み込む
 		Scanner standardInput = new Scanner(System.in);
 		
-		//変数correctNumberを生成し、当てるべき数を10~99からランダムで生成し、代入する
+		/*
+		 * 変数correctNumberを生成し、当てるべき数を10~99からランダムで生成し、
+		 * その値で初期化する
+		 */
 		int correctNumber = randomNumber.nextInt(90) + 10;
 		
 		//画面に数当てゲーム開始と表示する
 		System.out.println("数当てゲーム開始！！");
 		//画面に当てる数の範囲を表示する。
-		System.out.println("１０～９９の数を当ててください。");
+		System.out.println("10～99の数を当ててください。");
 		
-		//プレイヤーが入力した数を代入するための変数inputNumberを生成する
-		int inputNumber;
+		//プレイヤーが入力した数を代入するための変数inputNumberを生成し、0で初期化する
+		int inputNumber = 0;
 		//whileまでの文を実行する
 		do {
 			//画面に入力を促す
