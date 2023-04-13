@@ -19,7 +19,6 @@ public class Ensyu4_17 {
 	 * 作成日：2023.04.13
 	 */
 	public static void main(String[] args) {
-		
 		//キーボードからの入力を読み込む
 		Scanner standardInput = new Scanner(System.in);
 		
