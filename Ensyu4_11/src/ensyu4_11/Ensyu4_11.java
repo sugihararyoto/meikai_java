@@ -20,7 +20,7 @@ public class Ensyu4_11 {
 	public static void main(String[] args) {
 		//キーボードからの入力を読み込む
 		Scanner standardInput = new Scanner(System.in);
-		
+
 		//画面にカウントダウンします。と表示する
 		System.out.println("カウントダウンします。");
 		/*
@@ -28,7 +28,7 @@ public class Ensyu4_11 {
 		 * 0で初期化する
 		 */
 		int inputNumber = 0;
-		
+
 		//while (inputNumber <= 0)までの文を実行する
 		do {
 			//画面に正の整数値の入力を促す
@@ -45,7 +45,7 @@ public class Ensyu4_11 {
 		 * doからwhileまでを繰り返す
 		 */
 		} while (inputNumber <= 0);
-		
+
 		/*
 		 * 変数inputNumberの値から1つずつ減らす動作を、
 		 * 変数inputNumberの値が0未満になるまで繰り返す
@@ -54,8 +54,8 @@ public class Ensyu4_11 {
 			//画面に変数inputNumberの値を表示する
 			System.out.println(inputNumber);
 		}
-		
-		
+
+
 	}
 
 }
