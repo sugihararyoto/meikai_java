@@ -28,7 +28,7 @@ public class Ensyu4_20 {
 		do {
 			//画面に正の整数値の入力を促す
 			System.out.print("正の整数値を入力してください：");
-			//変数inputNumberを生成し、キーボードから入力した値で初期化する
+			//変数inputNumberに、キーボードから入力した値を代入する
 			inputNumber = standardInput.nextInt();
 			//正ではない値が入力された場合
 			if (inputNumber <= 0) {
