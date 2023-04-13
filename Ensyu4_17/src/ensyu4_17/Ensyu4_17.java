@@ -30,7 +30,7 @@ public class Ensyu4_17 {
 			//画面に整数値の入力を促す
 			System.out.print("整数値：");
 			//変数inputNumberを生成し、キーボードから入力した値で初期化する
-			inputNumber =standardInput.nextInt();
+			inputNumber = standardInput.nextInt();
 			//正ではない値が入力された場合
 			if (inputNumber <= 0) {
 				//画面に正ではない値が入力されました。と表示する
