@@ -52,7 +52,10 @@ public class Ensyu4_19 {
 					//画面にそれは秋です。と表示する
 					System.out.println("それは冬です。");
 				}
-				
+			/*
+			 * 変数monthNumberの値が1よりも小さく、12よりも大きいあいだ
+			 * doからwhileまでを繰り返す
+			 */
 			} while (monthNumber < 1 || monthNumber > 12);
 			
 			//while (retryNumber != 1 && retryNumber != 0)までの文を実行する
