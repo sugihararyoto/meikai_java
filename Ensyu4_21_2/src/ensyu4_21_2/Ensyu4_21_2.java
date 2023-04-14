@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Ensyu4_21_2 {
 	/*
 	 * 関数名：main
-	 * 概要：直角が右上側の直角三角形を表示する
+	 * 概要：入力された段数で直角が右上側の直角三角形を表示する
 	 * 引数：なし
 	 * 戻り値：なし
 	 * 作成者：R.Sugihara
