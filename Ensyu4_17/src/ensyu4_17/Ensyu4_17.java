@@ -44,7 +44,7 @@ public class Ensyu4_17 {
 		/*
 		 * 変数incrementNumberを生成し、1で初期化する
 		 * 変数incrementNumberの値を一つずつ増やしていき
-		 * 変数incrementNumberの値が変数inputNumberの値になるまで繰り返す
+		 * 変数incrementNumberの値が変数inputNumberの値より大きくなるまで繰り返す
 		 */
 		for (int incrementNumber = 1;incrementNumber <= inputNumber;incrementNumber++) {
 			//変数inputNumberの値を変数incrementNumberの値で割った余りが0の場合
