@@ -39,7 +39,7 @@ public class Ensyu4_17 {
 		//変数inputNumberの値が0以下のあいだdoからwhileまでを繰り返す
 		} while (inputNumber <= 0);
 		
-		//変数divisorNumberを生成し、1で初期化する
+		//変数divisorNumberを生成し、0で初期化する
 		int divisorNumber = 0;
 		/*
 		 * 変数incrementNumberを生成し、1で初期化する
@@ -47,7 +47,7 @@ public class Ensyu4_17 {
 		 * 変数incrementNumberの値が変数inputNumberの値になるまで繰り返す
 		 */
 		for (int incrementNumber = 1;incrementNumber <= inputNumber;incrementNumber++) {
-			//
+			//変数inputNumberの値を変数incrementNumberの値で割った余りが0の場合
 			if (inputNumber % incrementNumber == 0) {
 				//画面に変数incrementNumberの値を表示する
 				System.out.println(incrementNumber);
