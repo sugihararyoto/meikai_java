@@ -68,7 +68,7 @@ public class Ensyu6_6 {
 					sumNumber += pointNumber[incrementNumber];
 				}
 				
-			//変数inputNumberの値が0未満か100より大きいあいだdoからwhileまでを繰り返す
+			//pointNumber[incrementNumber]の値が0未満か100より大きいあいだdoからwhileまでを繰り返す
 			} while (pointNumber[incrementNumber] < 0 || 100 <pointNumber[incrementNumber]);
 			
 		}
