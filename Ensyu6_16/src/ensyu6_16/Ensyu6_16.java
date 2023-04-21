@@ -96,7 +96,7 @@ public class Ensyu6_16 {
 			 * jの値が4になるまで繰り返す
 			 */
 			for (int j = 0; j < 4; j++) {
-				//画面に要素の値の入力を促す
+				//画面に要素の値を表示する
 				System.out.print(thirdNumber[i][j] +"\t");
 			}
 			//改行する
