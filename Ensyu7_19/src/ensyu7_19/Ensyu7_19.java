@@ -142,7 +142,7 @@ public class Ensyu7_19 {
 		 * 変数iの値が変数inputNumberの値になるまで繰り返す
 		 */
 		for (int i = 0; i < inputNumber;i++) {
-			//画面にarrayNumber[incrementNumber]の値を表示する
+			//画面にarrayNumber[i]の値を表示する
 			System.out.print(arrayNumber[i]);
 			//変数iの値が変数inputNumberの値から1を引いた値より小さい場合
 			if (i < inputNumber - 1) {
