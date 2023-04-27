@@ -103,7 +103,7 @@ public class Ensyu7_17 {
 		//変数receiveNumberの値がJUDGMENT_NUMBERではない場合
 		if (receiveNumber != JUDGMENT_NUMBER) {
 			//画面に入力した値と同じ値を持つ要素を表示する
-			System.out.println("それはarrayNumber[" + receiveNumber + "]にあります。");
+			System.out.println("それはa[" + receiveNumber + "]にあります。");
 		//変数receiveNumberの値がJUDGMENT_NUMBERの場合
 		} else {
 			//画面にそれはありません。と表示する
