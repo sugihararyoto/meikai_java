@@ -109,13 +109,14 @@ public class Ensyu13_1 {
 	public static void main(String[] args) {
 		//図形の種類数を表す変数FIGURE_KIND_NUMBERを生成し、4で初期化する
 		final int FIGURE_KIND_NUMBER = 4;
-		//要素数がFIGURE_KIND_NUMBERの値のShape型の配列を生成する
-		Shape[] shapeArray = new Shape[FIGURE_KIND_NUMBER];
 		
 		//図形の個数の入力を促す
 		System.out.print("図形は何個：");
 		//図形の個数をキーボードから読み込む
 		int figureNumber = oneNumber();
+		//要素数がfigureNumberの値のShape型の配列を生成する
+		Shape[] shapeArray = new Shape[figureNumber];
+		
 		//図形の種類を選択するための変数selectFigureを生成し、0で初期化する
 		int selectFigure = 0;
 		
