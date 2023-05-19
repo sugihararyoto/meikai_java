@@ -3,10 +3,10 @@ package ensyu13_4;
 //importする
 import java.util.Scanner;
 /*
- * クラス名:Ensyu9_4
- * 概要  :演習9-4クラス
+ * クラス名:Ensyu13_4
+ * 概要  :演習13-4クラス
  * 作成者:R.Sugihara
- * 作成日:2023.05.10
+ * 作成日:2023.05.19
  */
 public class Ensyu13_4 {
 	//キーボードからの入力を読み込む
